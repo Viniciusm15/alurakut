@@ -1,6 +1,6 @@
 import MainGrid from '../src/components/MainGrid';
 import Box from '../src/components/Box';
-import { AluraKutMenu, OrkutNostalgicIconSet } from '../src/lib/AluraKutCommons';
+import { AlurakutMenu, OrkutNostalgicIconSet } from '../src/lib/AluraKutCommons';
 import { ProfileRelationsBoxWrapper } from '../src/components/ProfileRelations';
 
 function ProfileSidebar(props) {
@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <>
-      <AluraKutMenu />
+      <AlurakutMenu />
       <MainGrid>
         <div className="profileArea" style={{ gridArea: 'profileArea' }}>
           <ProfileSidebar gitHubUser={gitHubUser} />

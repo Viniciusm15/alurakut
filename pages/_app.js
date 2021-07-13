@@ -1,5 +1,5 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
-import { AluraKutSyles } from '../src/lib/AluraKutCommons';
+import { AlurakutStyles } from '../src/lib/AluraKutCommons';
 
 const GlobalStyle = createGlobalStyle`
   /* Reset CSS */
@@ -28,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
     height: auto;
     display: block;
   }
-  ${AluraKutSyles}
+  ${AlurakutStyles}
 `
 
 const theme = {
