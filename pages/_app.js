@@ -28,12 +28,13 @@ const GlobalStyle = createGlobalStyle`
     height: auto;
     display: block;
   }
+
   ${AlurakutStyles}
 `
 
 const theme = {
   colors: {
-    primary: '#0070f3',
+    primary: '#red',
   },
 }
 
